@@ -99,7 +99,7 @@ function Navbar() {
                     </svg>
                     </label>
                     <div>
-                      <a href="/login" className={`px-5 py-2 rounded-md ${theme === "dark" ? "bg-gray-800 text-white hover:bg-gray-700" : "bg-gray-900 text-white hover:bg-gray-800"}`}
+                      <a href="/signIn" className={`px-5 py-2 rounded-md ${theme === "dark" ? "bg-gray-800 text-white hover:bg-gray-700" : "bg-gray-900 text-white hover:bg-gray-800"}`}
                     > Login </a>
                     </div>
                 </div>
