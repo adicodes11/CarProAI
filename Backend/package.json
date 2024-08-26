@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Generative AI Car Proposal Generation AI",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adicodes11/CarProAI.git"
+  },
+  "author": "CarCrafters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adicodes11/CarProAI/issues"
+  },
+  "homepage": "https://github.com/adicodes11/CarProAI#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.4",
+    "nodemon": "^3.1.4"
+  }
+}
