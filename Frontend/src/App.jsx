@@ -5,7 +5,10 @@ import Services from './services/Services';
 // import Login from './Login/login';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
-import WelcomePage from './components/WelcomePage';
+import WelcomePage from './components/WelcomePage'; 
+import ContactUs from './contactUs/ContactUs';
+import AboutUs from './AboutUs/AboutUs';
+
 
 
 function App() {
@@ -19,8 +22,8 @@ function App() {
         <Route path="/signUp" element={<SignUp />} />
         <Route path="/welcomePage" element={<WelcomePage />} />
         {/* <Route path="/login" element={<Login />}/> */}
-        {/* <Route path="/aboutus" element={<About/>}/>
-        <Route path="/contactus" element={<ContactUs/>}/> */}
+        <Route path="/about" element={<AboutUs/>}/>
+        <Route path="/contact" element={<ContactUs />}/>
       </Routes>
     </div>
 

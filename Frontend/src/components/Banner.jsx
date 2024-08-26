@@ -19,7 +19,7 @@ function Banner() {
           </div>
           <button
             className="relative px-6 py-3 mt-10 bg-gradient-to-r from-blue-200 to-purple-400 rounded-full shadow-md transition duration-300 focus:outline-none hover:shadow-xl hover:scale-105 active:scale-95"
-            onClick={() => window.location.href = '/login'}
+            onClick={() => window.location.href = '/signIn'}
           >
             <span className="relative text-black text-lg font">
               Get Started
